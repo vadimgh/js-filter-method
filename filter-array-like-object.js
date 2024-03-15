@@ -7,6 +7,6 @@ const arrayLikeObject = {
   4: 'melon'
 };
 
-const filteredArrayLikeObject = Array.prototype.filter.call(arrayLikeObject, (el => el.length > 5));
+const filteredArrayLikeObject = Array.prototype.filter.call(arrayLikeObject, el => el.length > 5);
 
 console.log(filteredArrayLikeObject);

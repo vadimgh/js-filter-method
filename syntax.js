@@ -4,7 +4,7 @@ const filteredIntegers = integers.filter(n => n % 2 === 0);
 
 console.log(filteredIntegers);
 
-const words = ['one', 'two', 'tree', 'four', 'five', 'six', 'seven'];
+const words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven'];
 
 const filteredWords = words.filter(word => word.length > 3);
 
